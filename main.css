@@ -1,0 +1,151 @@
+body{
+margin: 0 auto;
+width: 100%;
+height: 100%;
+}
+ul {
+padding: 0px!important;
+}
+.menu-principal{
+width: 100%;
+background-color: black;
+height: 256px;
+}
+main{
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo{
+width: 85%;
+float: right;
+}
+.header-2{
+background-color:white;
+width: 980px;
+margin: 0 auto;
+padding: 9px;
+}
+.menu-link{
+height: 70px;
+border-bottom: 3px solid black;
+}
+.menu ul li {
+display: inline-block;
+color:darkslategrey;
+margin-left: 20px;
+height: 45px;
+}
+.menu ul li:hover{
+border-bottom: 3px solid orange;
+}
+.menu ul li a:hover {
+color: orange;
+}
+.menu ul li a {
+text-decoration: none;
+color:darkslategrey;
+font-size: 20px;
+text-transform: uppercase;
+}
+.menu{
+width: 65%;
+float: left;
+}
+.pesquisa{
+text-align: center;
+width: 35%;
+float: right;
+}
+.pesquisa input{
+height: 30px;
+margin-top: 11px;
+width: 200px;
+}
+.col-100{
+width: 100%;
+float: left;
+position: relative;
+}
+button.slick-prev{
+position: absolute;
+z-index: 9;
+top: 40%;
+background-color: transparent;
+width: 100px;
+height: 100px;
+color: transparent;
+font-size: 0px;
+left: 0;
+background-image: url('../img/seta-esquerda.png');
+}
+button.slick-next{
+position: absolute;
+z-index: 9;
+top: 40%;
+background-color: transparent;
+width: 100px;
+height: 100px;
+color:transparent;
+font-size: 0px;
+right: 0;
+background-image: url('../img/seta-direita.png');
+}
+.slides{
+height: 450px;
+width: 100%!important;
+}
+.content{
+font-size: 30px;
+color: black;
+position: absolute;
+margin-top: 30px;
+text-align: center;
+}
+.texto-destaque-2{
+font-size: 30px;
+color: black;
+position: absolute;
+margin-top: 30px;
+text-align: center;
+}
+.texto-destaque{
+font-size: 30px;
+color: black;
+position: absolute;
+margin-top: 30px;
+text-align: left;
+}
+.nome{
+text-align: center;
+width: 35%;
+float: center;
+}
+.nome input{
+height: 30px;
+margin-top: none;
+width: 500px;
+}
+.email{
+text-align: center;
+width: 35%;
+float: center;
+}
+.email input{
+height: 30px;
+margin-top: none;
+width: 500px;
+}
+.telefone{
+text-align: center;
+width: 35%;
+float: center;
+}
+.telefone input{
+height: 30px;
+margin-top: none;
+width: 500px;
+}
+
+
+
